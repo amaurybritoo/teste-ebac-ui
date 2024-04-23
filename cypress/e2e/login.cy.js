@@ -81,6 +81,7 @@ context('Funcionalidade Login', () => {
 })
 
 
-// it.only <- isola o caso e testa somente ele
+
+//it.only <- isola o caso e testa somente ele
 //it.skip <- pula um caso de teste
 
