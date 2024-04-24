@@ -8,6 +8,7 @@ describe('Funcionalidade Pre-cadastro', () => {
 
     beforeEach(() => {
         cy.visit('http://lojaebac.ebaconline.art.br/minha-conta/')
+        
     });
 
     //criando as constantes fakes
