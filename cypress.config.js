@@ -4,7 +4,9 @@ module.exports = defineConfig({
   projectId: 'hpenxf',
   e2e: {
     setupNodeEvents(on, config) {
-      // implement node event listeners here
+      
     },
+    //mantem o dominio global, para os testes
+    "baseUrl":"http://lojaebac.ebaconline.art.br/"
   },
 });
