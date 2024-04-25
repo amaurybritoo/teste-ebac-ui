@@ -11,8 +11,8 @@ describe('Funcionalidade Pagina de Produtos', () => {
     it('Deve selecionar um produto da lista', () => {
         cy.get('.product-block')
             // .first() <- pega o primeiro item da lista
-            // .lasta() <- pega o ultimo item da lista
-            //.eq(2) <- pega o item pelo indez
+            // .last() <- pega o ultimo item da lista
+            //.eq(2) <- pega o item pelo index
             .contains('Argus All-Weather Tank') // pega o produto pelo nome
             .click()
 
