@@ -7,6 +7,7 @@ module.exports = defineConfig({
       
     },
     //mantem o dominio global, para os testes
+    "experimentalRunAllSpecs":true,
     "baseUrl":"http://lojaebac.ebaconline.art.br/"
   },
 });
